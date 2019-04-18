@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>login employee</title>
     <link rel="stylesheet" href="css/assets/css/normalize.css">
@@ -27,7 +27,7 @@
                 <div class="login-form">
                     <form name="form1" method="post" action="login_code.php">
                         <div class="form-group">
-                            <label>รหัสพนักงาน</label>
+                            <label>���ʾ�ѡ�ҹ</label>
                             <input type="text" name="txtUsername" id="txtUsername" class="form-control" >
                         </div>
                         <div class="form-group">

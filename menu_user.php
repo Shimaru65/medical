@@ -1,7 +1,7 @@
 
 <!doctype html>
 <head>
-    <meta charset="utf-8">
+    <meta  charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>user_main_page</title>
     <meta name="description" content="user_main_page">
@@ -29,30 +29,30 @@
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">                  
-                    <h3 class="menu-title">เมนูบันทึก</h3>
+                    <h3 class="menu-title">เม�?ู�?ั�?ทึ�?</h3>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>เมนูบันทึก</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>เม�?ู�?ั�?ทึ�?</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">เพิ่มบันทึกการตรวจสุขภาพ</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">เพิ่มรายการการตรวจสุขภาพ</a></li>
-                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">เพิ่มสถานพยาบาล</a></li>                          
+                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">เ�?ิ�?ม�?ั�?ทึ�?�?ารตรว�?สุ�?ภา�?</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">เ�?ิ�?มราย�?าร�?ารตรว�?สุ�?ภา�?</a></li>
+                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">เ�?ิ�?มสถา�?�?ยา�?าล</a></li>                          
                         </ul>
                     </li>                 
-                    <h3 class="menu-title">เมนูการจัดการ</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">เม�?ู�?าร�?ัด�?าร</h3><!-- /.menu-title -->
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>เมนูการจัดการ</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>เม�?ู�?าร�?ัด�?าร</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="index.php?page=menu_user">ค้นหาผลการตรวจสุขภาพ</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">ค้นหาตามเคสตรวจ</a></li>
-                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">ค้นหาตามสถานพยาบาล</a></li>
+                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="index.php?page=menu_user">�?�?�?หา�?ล�?ารตรว�?สุ�?ภา�?</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">�?�?�?หาตามเ�?สตรว�?</a></li>
+                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">�?�?�?หาตามสถา�?�?ยา�?าล</a></li>
                         </ul>
                     </li> 
-                    <h3 class="menu-title">เพิ่มเติม</h3>
+                    <h3 class="menu-title">เ�?ิ�?มเติม</h3>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>จัดการผู้ใช้</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>�?ัด�?าร�?ู�?�?�?�?</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">เเก้ใขรหัสผ่าน</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">เเ�?�?�?�?รหัส�?�?า�?</a></li>
                         </ul>
                     </li>
                 </ul>

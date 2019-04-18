@@ -5,7 +5,7 @@ ob_start();
 ?>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
  <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/assets/css/font-awesome.min.css">
@@ -17,19 +17,19 @@ ob_start();
 <script language="javascript">
 function check(){
 if(document.ChangePass.passold.value==""){
-	alert('กรุณากรอก PASSWORD เก่า');
+	alert('��سҡ�͡ PASSWORD ���');
     document.ChangePass.passold.focus();
 	return false;
 }else if(document.ChangePass.passnew.value==""){
-	alert('กรุณากรอก PASSWORD ใหม่');
+	alert('��سҡ�͡ PASSWORD ����');
     document.ChangePass.passnew.focus();
 	return false;
 }else if(document.ChangePass.passnew1.value==""){
-	alert('กรุณายืนยัน PASSWORD ใหม่');
+	alert('��س��׹�ѹ PASSWORD ����');
     document.ChangePass.passnew1.focus();
 	return false;
 }else if(document.ChangePass.passnew.value != document.ChangePass.passnew1.value){
-	alert('คุณใส่ password ไม่ตรงกัน');
+	alert('�س��� password ���ç�ѹ');
 	document.ChangePass.passnew1.focus();     
 	return false;
 }
@@ -46,32 +46,32 @@ return true;
     <form id="ChangePass" name="ChangePass" method="POST" action="pass_change_code.php" onsubmit="return check()">
  <div class="col-lg-6">
                     <div class="card">
-                      <div class="card-header">เปลี่ยนรหัสผ่าน</div>
+                      <div class="card-header">����¹���ʼ�ҹ</div>
                       <div class="card-body card-block">
                         <form action="" method="post" class="">
                           <div class="form-group">
                             <div class="input-group">
-                              <div class="input-group-addon">รหัสเก่า</div>
+                              <div class="input-group-addon">�������</div>
                               <input type="password" id="passold" name="passold" class="form-control">
                               
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="input-group">
-                              <div class="input-group-addon">รหัสใหม่</div>
+                              <div class="input-group-addon">��������</div>
                               <input type="password" id="passnew" name="passnew" class="form-control">
                               
                             </div>
                           </div>
                           <div class="form-group">
                             <div class="input-group">
-                              <div class="input-group-addon">ยืนยันรหัสใหม่</div>
+                              <div class="input-group-addon">�׹�ѹ��������</div>
                               <input type="password" id="passnew1" name="passnew1" class="form-control">
                               
                             </div>
                           </div>
                           <div class="form-actions form-group">            
-                              <button type="submit" name="button" id="button" value="ยืนยัน" class="btn btn-primary btn-sm">ยืนยัน</button>
+                              <button type="submit" name="button" id="button" value="�׹�ѹ" class="btn btn-primary btn-sm">�׹�ѹ</button>
                            </div>
                         </form>
                       </div>

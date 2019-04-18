@@ -1,6 +1,6 @@
 <html>
     <head>   
-      <meta  charset="utf-8">
+      <meta  charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>hospital</title>
     <meta name="description" content="admin_main_page">
@@ -18,15 +18,15 @@
         <div class="col-lg-6">
                     <div class="card">
                       <div class="card-header">
-                        <strong>เพิ่มสถานพยาบาล</strong>
+                        <strong>ʶҹ��Һ��</strong>
                       </div>
                       <div class="card-body card-block">
                           <form action="add_hospital_code.php" method="POST"  enctype='multipart/form-data' class="form-horizontal">
                           <div class="row form-group">
                             <div class="col col-md-12">
                               <div class="input-group">
-                                  <input type="text" id="hostpital_name" name="hospital_name" placeholder="ชื่อโรงพยาบาล"  class="form-control">
-                                <div class="input-group-btn"><button class="btn btn-primary">ยืนยัน</button></div>
+                                  <input type="text" id="hostpital_name" name="hospital_name" placeholder="ʶҹ��Һ��"  class="form-control">
+                                <div class="input-group-btn"><button class="btn btn-primary">�׹�ѹ</button></div>
                               </div>
                             </div>
                           </div>                        
@@ -42,43 +42,35 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <strong class="card-title">รายชื่อสถานพยาบาล</strong>
+                            <strong class="card-title">��ª���ʶҹ��Һ��</strong>
                         </div>
                         <div class="card-body">
                   <table id="bootstrap-data-table" class="table table-striped table-bordered">
                     <thead>
                       <tr>
-                        <th>ชื่อสถานพยาบาล</th>
-                        <th>เเก้ใข</th>
-                        <th>ลบ</th> 
+                        <th>����ʶҹ��Һ��</th>              
+                        <th>ź</th> 
                         </tr>
                     </thead> 
                     <tbody>
                       <?php
                       include 'connect/dbconnect.php';
-                      $showhos = "select * from hospital";
-                      $result = mssql_query($showhos);
+                      $showhos = "SELECT * FROM hospital";
+                      $result = mssql_query($showhos);                     
                       while ($record = mssql_fetch_array($result)){
                       ?>
                         <tr>
-                            <td>
+                            <td width="80%">
                                 <?php
                                 echo" $record[hospital_name]";
                                 ?>
-                            </td>
-                            <td>edit</td>
-                            <td><?php echo"<a href=delete_hospital_code.php?hospital_id=$record[hospital_id]>ลบ"?></a></td>
+                            </td>                          
+                             <td><?php echo"<a href=delete_hospital_code.php?hospital_id=$record[hospital_id]>ź"?></a></td>
                         </tr>
                         <?php
                       }
                       ?>
                     </tbody>
                   </table>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
     </body>
 </html>

@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta  charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>admin_main_page</title>
     <meta name="description" content="admin_main_page">
@@ -32,30 +32,31 @@
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">                  
-                    <h3 class="menu-title">เมนูบันทึก</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">���ٺѹ�֡</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>เมนูบันทึก</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>���ٺѹ�֡</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">เพิ่มบันทึกการตรวจสุขภาพ</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="">เพิ่มรายการการตรวจสุขภาพ</a></li>
-                            <li><i class="fa fa-bars"></i><a href="main.php?page=hospital">เพิ่มสถานพยาบาล</a></li>                          
+                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">�����ѹ�֡��õ�Ǩ�آ�Ҿ</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="">������¡�á�õ�Ǩ�آ�Ҿ</a></li>
+                            <li><i class="fa fa-bars"></i><a href="main.php?page=hospital">����ʶҹ��Һ��</a></li>                          
                         </ul>
                     </li>                 
-                    <h3 class="menu-title">เมนูการจัดการ</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">���١�èѴ���</h3><!-- /.menu-title -->
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>เมนูการจัดการ</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>���١�èѴ���</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">ค้นหาผลการตรวจสุขภาพ</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">ค้นหาตามเคสตรวจ</a></li>
-                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">ค้นหาตามสถานพยาบาล</a></li>
+                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">���Ҽš�õ�Ǩ�آ�Ҿ</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">���ҵ���ʵ�Ǩ</a></li>
+                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">���ҵ��ʶҹ��Һ��</a></li>
                         </ul>
                     </li> 
-                    <h3 class="menu-title">เพิ่มเติม</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">�������</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>จัดการผู้ใช้</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>�Ѵ��ü����</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">เเก้ใขรหัสผ่าน</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">�������ʼ�ҹ</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=logout_code">LOGOUT</a></li>
                         </ul>
                     </li>
                 </ul>

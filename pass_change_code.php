@@ -4,7 +4,7 @@
 ?>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
 <title>Untitled Document</title>
 
 </head>
@@ -16,12 +16,12 @@
         	$objQuery = mssql_query($strSQL);
 	$objResult = mssql_fetch_array($objQuery);
 	if(!$objResult){
-		echo "<script>alert('Password ‡πÄ‡∏î‡∏¥‡∏°‡πÑ‡∏°‡πà‡∏ñ‡∏π‡∏Å‡∏ï‡πâ‡∏≠‡∏á!')</script>";	
+		echo "<script>alert('Password ‡¥‘¡‰¡Ë∂Ÿ°µÈÕß!')</script>";	
                                 echo "<Meta http-equiv='refresh' content='0; URL=main.php?page=pass_change'>";
 	}else{
 		$sql = "update employee set password_id = '".$_POST[passnew]."' where id_employee = '".$_SESSION['id_employee']."' ";
 		$result = mssql_query($sql);
-		echo "<script>alert('‡πÄ‡∏õ‡∏•‡∏µ‡πà‡∏¢‡∏ô Password ‡πÄ‡∏™‡∏£‡πá‡∏à‡πÄ‡∏£‡∏µ‡∏¢‡∏ö‡∏£‡πâ‡∏≠‡∏¢')</script>";
+		echo "<script>alert('‡ª≈’Ë¬π Password ‡ √Á®‡√’¬∫√ÈÕ¬')</script>";
 		echo "<meta http-equiv='refresh' content='0; url=index.php'>";
 	}	
 ?>
