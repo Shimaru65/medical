@@ -1,4 +1,4 @@
-<meta  charset="windows-874">
+<meta charset="windows-874">
     <?php
 $hosid = $_GET[hospital_id];
 include "connect/dbconnect.php";
@@ -13,3 +13,4 @@ if($result){ ?>
             alert("nope")
     </script> <?php echo "<meta http-equiv = 'refresh' content='20; url=main.php?page=hospital'>";}
 ?>
+    

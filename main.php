@@ -3,13 +3,14 @@ session_start();
 ?>
 <html>
     <head>
-        <meta  charset="windows-874">
+        <meta charset="windows-874">
     </head>
     <body>
         <table width="100%" border="1">
             <tr>
                 <td width="17%">    
-                    <?php                  
+                    <?php
+                    print iconv('WINDOWS-874', 'UTF-8', $MartList->fields ["hostpital_name"]);
                     include $_SESSION["file_menu"];
                     ?>
                 </td>

@@ -5,7 +5,7 @@ ob_start();
 ?>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
+<meta charset="windows-874">
  <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/assets/css/font-awesome.min.css">

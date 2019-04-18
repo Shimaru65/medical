@@ -1,7 +1,7 @@
 
 <!doctype html>
 <head>
-    <meta  charset="windows-874">
+    <meta charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>user_main_page</title>
     <meta name="description" content="user_main_page">
@@ -29,30 +29,30 @@
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">                  
-                    <h3 class="menu-title">‡πÄ‡∏°‡∏?‡∏π‡∏?‡∏±‡∏?‡∏ó‡∏∂‡∏?</h3>
+                    <h3 class="menu-title">‡¡πŸ∫—π∑÷°</h3>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>‡πÄ‡∏°‡∏?‡∏π‡∏?‡∏±‡∏?‡∏ó‡∏∂‡∏?</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>‡¡πŸ∫—π∑÷°</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">‡πÄ‡∏?‡∏¥‡π?‡∏°‡∏?‡∏±‡∏?‡∏ó‡∏∂‡∏?‡∏?‡∏≤‡∏£‡∏ï‡∏£‡∏ß‡∏?‡∏™‡∏∏‡∏?‡∏†‡∏≤‡∏?</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">‡πÄ‡∏?‡∏¥‡π?‡∏°‡∏£‡∏≤‡∏¢‡∏?‡∏≤‡∏£‡∏?‡∏≤‡∏£‡∏ï‡∏£‡∏ß‡∏?‡∏™‡∏∏‡∏?‡∏†‡∏≤‡∏?</a></li>
-                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">‡πÄ‡∏?‡∏¥‡π?‡∏°‡∏™‡∏ñ‡∏≤‡∏?‡∏?‡∏¢‡∏≤‡∏?‡∏≤‡∏•</a></li>                          
+                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">‡æ‘Ë¡∫—π∑÷°°“√µ√«® ÿ¢¿“æ</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">‡æ‘Ë¡√“¬°“√°“√µ√«® ÿ¢¿“æ</a></li>
+                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">‡æ‘Ë¡ ∂“πæ¬“∫“≈</a></li>                          
                         </ul>
                     </li>                 
-                    <h3 class="menu-title">‡πÄ‡∏°‡∏?‡∏π‡∏?‡∏≤‡∏£‡∏?‡∏±‡∏î‡∏?‡∏≤‡∏£</h3><!-- /.menu-title -->
+                    <h3 class="menu-title">‡¡πŸ°“√®—¥°“√</h3><!-- /.menu-title -->
 
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>‡πÄ‡∏°‡∏?‡∏π‡∏?‡∏≤‡∏£‡∏?‡∏±‡∏î‡∏?‡∏≤‡∏£</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>‡¡πŸ°“√®—¥°“√</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="index.php?page=menu_user">‡∏?‡π?‡∏?‡∏´‡∏≤‡∏?‡∏•‡∏?‡∏≤‡∏£‡∏ï‡∏£‡∏ß‡∏?‡∏™‡∏∏‡∏?‡∏†‡∏≤‡∏?</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">‡∏?‡π?‡∏?‡∏´‡∏≤‡∏ï‡∏≤‡∏°‡πÄ‡∏?‡∏™‡∏ï‡∏£‡∏ß‡∏?</a></li>
-                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">‡∏?‡π?‡∏?‡∏´‡∏≤‡∏ï‡∏≤‡∏°‡∏™‡∏ñ‡∏≤‡∏?‡∏?‡∏¢‡∏≤‡∏?‡∏≤‡∏•</a></li>
+                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="index.php?page=menu_user">§ÈπÀ“º≈°“√µ√«® ÿ¢¿“æ</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">§ÈπÀ“µ“¡‡§ µ√«®</a></li>
+                             <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">§ÈπÀ“µ“¡ ∂“πæ¬“∫“≈</a></li>
                         </ul>
                     </li> 
-                    <h3 class="menu-title">‡πÄ‡∏?‡∏¥‡π?‡∏°‡πÄ‡∏ï‡∏¥‡∏°</h3>
+                    <h3 class="menu-title">‡æ‘Ë¡‡µ‘¡</h3>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>‡∏?‡∏±‡∏î‡∏?‡∏≤‡∏£‡∏?‡∏π‡π?‡π?‡∏?‡π?</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>®—¥°“√ºŸÈ„™È</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">‡πÄ‡πÄ‡∏?‡π?‡π?‡∏?‡∏£‡∏´‡∏±‡∏™‡∏?‡π?‡∏≤‡∏?</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">‡‡°È„¢√À— ºË“π</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -8,9 +8,9 @@
 	if(!$objResult)
 	{
 			?>        
-                        <meta  charset="windows-874">
+                        <meta charset="windows-874">
 			<script Language = "javascript">
-                        alert('login ไม่สำเร็จ กรุณาลองใหม่อีกครั้ง')
+                        alert('รหัสพนักงาน หรือ รหัสผ่านผิด โปรดลองอีกครั้ง')
                         </script>
                         
          <?php   

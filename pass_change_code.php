@@ -4,7 +4,7 @@
 ?>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874" />
+<meta charset="windows-874">
 <title>Untitled Document</title>
 
 </head>

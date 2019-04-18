@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <meta  charset="windows-874">
+    <meta charset="windows-874">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>admin_main_page</title>
     <meta name="description" content="admin_main_page">
@@ -56,7 +56,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>จัดการผู้ใช้</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=pass_change">เเก้ใขรหัสผ่าน</a></li>
-                            <li><i class="menu-icon fa fa-sign-in"></i><a href="main.php?page=logout_code">LOGOUT</a></li>
                         </ul>
                     </li>
                 </ul>
