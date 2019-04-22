@@ -10,13 +10,12 @@ session_start();
             <tr>
                 <td width="17%">    
                     <?php
-                    print iconv('WINDOWS-874', 'UTF-8', $MartList->fields ["hostpital_name"]);
                     include $_SESSION["file_menu"];
                     ?>
                 </td>
-                     <td width="73%" align="middle">
-                     <?php
-                    include $_GET[page].".php";
+                <td width="73%" align="middle">
+                    <?php
+                    include $_GET[page] . ".php";
                     ?>
                 </td>
             </tr>

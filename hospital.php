@@ -34,7 +34,6 @@
                       </div>                  
                     </div>
                   </div>
-        
                   <div class="content mt-3">
             <div class="animated fadeIn">
                 <div class="row">
@@ -74,11 +73,6 @@
                       ?>
                     </tbody>
                   </table>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
+                 
     </body>
 </html>
