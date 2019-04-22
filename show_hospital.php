@@ -1,18 +1,6 @@
 <html>
     <head>   
-        <meta charset="windows-874">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>result</title>
-        <meta name="description" content="admin_main_page">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/assets/css/normalize.css">
-        <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/assets/css/themify-icons.css">
-        <link rel="stylesheet" href="css/assets/css/flag-icon.min.css">
-        <link rel="stylesheet" href="css/assets/css/cs-skin-elastic.css">
-        <link rel="stylesheet" href="css/assets/scss/style.css">
-        <link href="css/assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
+        <meta charset="windows-874"
     </head>
     <body>
         <div class="content mt-3">
@@ -24,7 +12,7 @@
                                 <?php
                                 include 'connect/dbconnect.php';
                                 $showhos1 = "select * from hospital WHERE hospital_id=$_GET[hospital_id]";
-                                $disease = "select * from disease_list";
+                                $disease = "select * from disease_list where disease_id=$_GET[disease_id]";
                                 $result_table = "select * from result";
                                 $result1 = mssql_query($showhos1);
                                 $result2 = mssql_query($disease);
@@ -48,5 +36,11 @@
                                     <td align="center"><?= $record3["result"]; ?></td>
                                     <td align="center"><?= $record3["note"]; ?></td>
                                 </table>
-                                </body>
-                                </html>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

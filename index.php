@@ -12,10 +12,7 @@
     <link rel="stylesheet" href="css/assets/css/flag-icon.min.css">
     <link rel="stylesheet" href="css/assets/css/cs-skin-elastic.css">    
     <link rel="stylesheet" href="css/assets/scss/style.css">
-</head>
 <body class="bg-dark">
-
-
     <div class="sufee-login d-flex align-content-center flex-wrap">
         <div class="container">
             <div class="login-content">
@@ -40,13 +37,9 @@
             </div>
         </div>
     </div>
-
-
     <script src="css/assets/js/vendor/jquery-2.1.4.min.js"></script>
     <script src="css/assets/js/popper.min.js"></script>
     <script src="css/assets/js/plugins.js"></script>
     <script src="css/assets/js/main.js"></script>
-
-
 </body>
 </html>

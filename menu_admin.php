@@ -2,24 +2,8 @@
 <html>
     <head>
         <meta charset="windows-874">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>admin_main_page</title>
-        <meta name="description" content="admin_main_page">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/assets/css/normalize.css">
-        <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/assets/css/themify-icons.css">
-        <link rel="stylesheet" href="css/assets/css/flag-icon.min.css">
-        <link rel="stylesheet" href="css/assets/css/cs-skin-elastic.css">
-        <link rel="stylesheet" href="css/assets/scss/style.css">
-        <link href="css/assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
     </head>
     <body>
-
-
-
-
         <aside id="left-panel" class="left-panel">
             <nav class="navbar navbar-expand-sm navbar-default">
 
@@ -66,8 +50,6 @@
         <script src="css/assets/js/vendor/jquery-2.1.4.min.js"></script>
         <script src="css/assets/js/plugins.js"></script>
         <script src="css/assets/js/main.js"></script>
-
-
         <script src="css/assets/js/lib/chart-js/Chart.bundle.js"></script>
         <script src="css/assets/js/dashboard.js"></script>
         <script src="css/assets/js/widgets.js"></script>
@@ -93,6 +75,5 @@
                 });
             })(jQuery);
         </script>
-
     </body>
 </html>

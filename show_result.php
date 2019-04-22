@@ -1,18 +1,6 @@
 <html>
     <head>   
         <meta charset="windows-874">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>result</title>
-        <meta name="description" content="admin_main_page">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/assets/css/normalize.css">
-        <link rel="stylesheet" href="css/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/assets/css/themify-icons.css">
-        <link rel="stylesheet" href="css/assets/css/flag-icon.min.css">
-        <link rel="stylesheet" href="css/assets/css/cs-skin-elastic.css">
-        <link rel="stylesheet" href="css/assets/scss/style.css">
-        <link href="css/assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet">
     </head>
     <body>
         <div class="content mt-3">
@@ -34,24 +22,43 @@
                                     <thead>
                                         <?php
                                         include 'connect/dbconnect.php';
-                                        $showhos = "select * from disease_detail WHERE diseasea_id=$_GET[disease_id]";
+                                        $showhos = "select * from disease_detail WHERE disease_id=$_GET[disease_id]";
+                                        $showre = "select  from employee where id_employee=$_GET[id_employee]";
                                         $rusult_table = "select * from result";
                                         $result = mssql_query($showhos);
                                         $result3 = mssql_query($rusult_table);
                                         while ($record = mssql_fetch_array($result)) {
-                                            while ($record2 = mssql_fetch_array($result3)) {
-                                                ?> 
-                                            <th>
-                                                <?php
-                                                echo "$record[detail_name]";
-                                                echo "$record2[disease_id]";
-                                                ?>
-                                            </th>
+                                            ?> 
+                                        <th>
                                             <?php
-                                        }
+                                            echo "$record[detail_name]";
+                                            ?>
+                                        </th>
+                                        <?php
                                     }
                                     ?>
                                     </thead>
+                                    <tbody>
+                                        <tr>
+                                            <?php
+                                            while ($record1 = mssql_fetch_array($result3)) {
+                                                ?>
+                                                <td>
+                                                    <?php
+                                                    echo "$record1[disease_id]";
+                                                    ?>
+                                                </td>
+                                                <?php
+                                            }
+                                            ?>
+                                        </tr>
+                                    </tbody>
                                 </table>
-                                </body>
-                                </html>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>                                            
