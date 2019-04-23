@@ -1,5 +1,4 @@
 <meta charset="windows-874">
 <?php
-$showemp = "select * from employee";
-$result2 = mssql_query($showemp);
+echo" <a href=logout_code.php>logout i sas</a>"
 ?>
