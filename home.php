@@ -1,4 +1,2 @@
 <meta charset="windows-874">
-<?php
-echo" <a href=logout_code.php>logout i sas</a>"
-?>
+<a href=logout_code.php><img src="css/images/01.jpg" class="img-rounded" alt="Cinque Terre"></a>

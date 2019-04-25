@@ -15,10 +15,12 @@ if ($type_user == "1") {
     $file_menu = "menu_user.php";
 };
 include 'connect/dbconnect.php';
-$addon = "INSERT INTO employee (  id_employee, first_name, last_name, department_id, position, password_id, type_use,file_menu)
+$addon = "INSERT INTO employee (  id_employee, first_name, last_name, department_id, position, password_id, type_user,file_menu)
           VALUES ('" . $id_employee . "','" . $first_name . "','" . $last_name . "','" . $department_id . "','" . $position . "','" . $password_id . "','" . $type_user1 . "','" . $file_menu . "') ";
 $result = mssql_query($addon)or die('Error querying MSSQL database');
-if ($result) {
+if ($result) { ?>
+<script>alert('เพิ่มพนักงานสำเร็จ')</script>
+<?php
     echo" <meta http-equiv = 'refresh' content='0; url=main.php?page=add_user'>";
 }
 ?>

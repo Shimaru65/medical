@@ -3,7 +3,8 @@
         <meta charset="windows-874">
     </head>
     <body>
-        <div class="col-lg-6">
+        <div class="row">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header">
                     <strong>เพิ่มพนักงาน</strong> 
@@ -63,6 +64,7 @@
                 </div>
                 </form>
             </div>
+        </div>
         </div>
     </body>
 </html>
