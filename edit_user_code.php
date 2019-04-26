@@ -6,6 +6,11 @@ $last_name = $_POST[last_name];
 $department = $_POST[department_id];
 $position = $_POST[position];
 $type_user = $_POST[type_user];
+if ($type_user == "admin") {
+    $file_menu = "menu_admin.php";
+} else {
+    $file_menu = "menu_user.php";
+};
 include 'connect/dbconnect.php';
 $dbupdate = "UPDATE employee SET ";
 $dbupdate .= "id_employee='" . $id_employee . "'";
@@ -14,6 +19,7 @@ $dbupdate .= ",last_name='" . $last_name . "'";
 $dbupdate .= ",department_id='" . $department . "'";
 $dbupdate .= ",position='" . $position . "'";
 $dbupdate .= ",type_user='" . $type_user . "'";
+$dbupdate .= ",file_menu='".$file_menu."'";
 $dbupdate .= " WHERE id_employee='" . $_GET[id_employee] . "'";
 $objQuery .= mssql_query($dbupdate);
 if ($objQuery) {

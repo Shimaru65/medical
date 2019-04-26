@@ -11,6 +11,6 @@ if($result){ ?>
  <?php echo "<meta http-equiv = 'refresh' content='0; url=main.php?page=hospital'>";}else{ ?>
     <script Language = "javascript">
             alert("nope")
-    </script> <?php echo "<meta http-equiv = 'refresh' content='20; url=main.php?page=hospital'>";}
+    </script> <?php echo "<meta http-equiv = 'refresh' content='0; url=main.php?page=hospital'>";}
 ?>
     

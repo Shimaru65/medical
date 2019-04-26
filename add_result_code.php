@@ -19,6 +19,8 @@ while ($i < $loop_input) {
     $i++;
 }
 if ($result) {
-    echo" <meta http-equiv = 'refresh' content='0; url=main.php?page=add_result'>";
+    $add_check = "INSERT INTO check_result (id_employee,disease_id,hospital_id,day,month,year) VALUES ('".$IDemployee."','".$disease_ID."','" . $hospitalID . "','" . $day . "','" . $month . "','" . $year . "')";
+    $result_check = mssql_query($add_check)or die('Error quering MSSQL to Check_result Table');
+    echo" <meta http-equiv = 'refresh' content='0; url=main.php?page=main_add_result'>";
 }
 ?>

@@ -21,7 +21,7 @@
                                 <li class="menu-item-has-children dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>เมนูบันทึก</a>
                                     <ul class="sub-menu children dropdown-menu">
-                                        <li><i class="fa fa-puzzle-piece"></i><a href="main.php?page=add_result">เพิ่มบันทึกการตรวจสุขภาพ</a></li>
+                                        <li><i class="fa fa-puzzle-piece"></i><a href="main.php?page=main_add_result">เพิ่มบันทึกการตรวจสุขภาพ</a></li>
                                         <li><i class="fa fa-id-badge"></i><a href="main.php?page=disease_list">เพิ่มรายการการตรวจสุขภาพ</a></li>
                                         <li><i class="fa fa-bars"></i><a href="main.php?page=hospital">เพิ่มสถานพยาบาล</a></li>                          
                                     </ul>

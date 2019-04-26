@@ -14,7 +14,7 @@
                             <div class="row form-group">
                                 <div class="col col-md-12">
                                     <div class="input-group">
-                                        <input type="text" id="disease_list_name" name="disease_list_name" placeholder="ÃÒÂ¡ÒÃµÃÇ¨âÃ¤"  class="form-control">
+                                        <input type="text" id="disease_list_name" name="disease_list_name" required placeholder="ÃÒÂ¡ÒÃµÃÇ¨âÃ¤"  class="form-control">
                                         <div class="input-group-btn"><button class="btn btn-primary">Â×¹ÂÑ¹</button></div>
                                     </div>
                                 </div>

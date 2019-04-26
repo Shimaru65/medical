@@ -15,13 +15,24 @@ if ($type_user == "1") {
     $file_menu = "menu_user.php";
 };
 include 'connect/dbconnect.php';
-$addon = "INSERT INTO employee (  id_employee, first_name, last_name, department_id, position, password_id, type_user,file_menu)
+$check = "select * from employee  where id_employee = '" . $id_employee . "' ";
+$result1 = mssql_query($check) or die(mssql_error());
+$num = mssql_num_rows($result1);
+if ($num > 0) {
+    echo "<script>";
+    echo "alert('รหัสพนักงานซ้ำ กรุณาลองใหม่อีกครั้ง');";
+    echo "window.location='main.php?page=add_user';";
+    echo "</script>";
+} else {
+    $addon = "INSERT INTO employee (  id_employee, first_name, last_name, department_id, position, password_id, type_user,file_menu)
           VALUES ('" . $id_employee . "','" . $first_name . "','" . $last_name . "','" . $department_id . "','" . $position . "','" . $password_id . "','" . $type_user1 . "','" . $file_menu . "') ";
-$result = mssql_query($addon)or die('Error querying MSSQL database');
-if ($result) { ?>
-<script>alert('เพิ่มพนักงานสำเร็จ')</script>
-<?php
-    echo" <meta http-equiv = 'refresh' content='0; url=main.php?page=add_user'>";
+    $result = mssql_query($addon)or die('Error querying MSSQL database');
+    if ($result) {
+        ?>
+        <script>alert('เพิ่มพนักงานสำเร็จ')</script>
+        <?php
+        echo" <meta http-equiv = 'refresh' content='0; url=main.php?page=add_user'>";
+    }
 }
 ?>
 

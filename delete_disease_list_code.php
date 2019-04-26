@@ -3,7 +3,9 @@
 $disid = $_GET[disease_id];
 include "connect/dbconnect.php";
 $deletedisease ="delete from disease_list where disease_id = '$disid'";
+$deletedetail = "delete from disease_detail where disease_id = '$disid'";
 $result = mssql_query($deletedisease);
+$result = mssql_query($deletedetail);
 if($result){ ?>
    <script Language = "javascript">
     alert('success')
